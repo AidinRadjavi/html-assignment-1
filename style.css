@@ -1,0 +1,328 @@
+li {
+    display: inline-flex;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+/*Länk storlek*/
+
+h4 {
+    display: inline;
+    margin: 0.3%;
+    margin-left: 10%;
+}
+
+.vl {
+    height: 30px;
+    width: 2px;
+    background-color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.banner {
+    background-color: aqua;
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*Bildbanner storlek*/
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+/*Bild storlek*/
+
+#topnav {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+h1 {
+    margin-left: 10%;
+}
+
+.copyright p {
+    margin-left: 10%;
+}
+/* footer text */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.right-image {
+    background-color: aqua;
+    height: 600px;
+    width: 200%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.right-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.left-text {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.left-text h1 {
+    margin-left: 0%;
+}
+.right-text h1 {
+    margin-left: 0%;
+}
+
+.left-image {
+    background-color: aqua;
+    height: 600px;
+    width: 200%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.left-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.right-text {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}  
+
+.form {
+    display: flex;
+	flex-direction: column;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    font-size: large;
+}
+
+.form input {
+    width: 100%;
+    height: 40px;
+    font-size: large;
+}
+
+.form textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 3%;
+    font-size: larger;
+}
+.form a {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    border-color: darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact h1 {
+    margin-top: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.thankyou p {
+    font-size: 500%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+	justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #e7e7e7;  
+}
+/* styling för tack-sidan */
+
+.blog {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.blog-text {
+    width: 650px;
+    height: 300px;
+}
+.blog-text p {
+    margin: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blog-img {
+    width: 300px;
+    height: 200px;
+    margin: 0%;
+}
+.blog-img img {
+    width: 100%;
+}
+.categories {
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tags {
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.tags button {
+    border-radius: 15px;
+    font-size: larger;
+    margin: 5px;
+    background-color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 30px;
+}
+.right-side {
+    width: 30%;
+    height: 600px;
+    display: flex;
+	flex-direction: column;
+}
+.home-button {
+    display: flex;
+    justify-content: flex-start;
+}
+.landing-button {
+    display: flex;
+    justify-content: space-between;
+    border: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 44%;
+    margin-right: 44%;
+}
+.landing-button .home-button {
+    text-align: center;
+    background-color: lightgray;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    border-color: darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+.landing-button .back-button {
+    text-align: center;
+    background-color: lightgray;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    border-color: darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+.blog-post {
+    display: flex;
+	align-content: center;
+    padding: 30px 0%;
+}
+.blog-article {
+    width: 70%;
+}
+hr {
+    height: 2px;
+    background-color: lightgray;
+}
+.comments {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.comment-1 {
+    font-size: medium;
+}
+.categories ul li {
+    list-style: none;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: gray;
+}
+.blog-title h1 {
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blog-title h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#send-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #767676;
+}
+.tag-theme {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.categorie-theme {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
